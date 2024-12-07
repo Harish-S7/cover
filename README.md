@@ -31,7 +31,7 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
-       <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -39,7 +39,7 @@ Publish the website in the LocalHost.
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Cover Page</title>
   <style>
-    /* General Reset for body */
+    /* General Reset */
     * {
       margin: 0;
       padding: 0;
@@ -65,7 +65,7 @@ Publish the website in the LocalHost.
       background-color: white;
     }
 
-    /* SEC Insight header */
+    /* Insight header */
     .insight {
       color: black;
       font-size: 20px;
@@ -74,7 +74,7 @@ Publish the website in the LocalHost.
       margin-top: 10px;
     }
 
-    /* Styled horizontal line */
+    /* Styled red horizontal line */
     .hrstyle {
       margin: 10px auto;
       width: 100px;
@@ -82,7 +82,7 @@ Publish the website in the LocalHost.
       text-align: center;
     }
 
-    /* Book title styles */
+    /* Book title */
     .booktitle {
       font-family: 'Courier New', Courier, monospace;
       font-size: 26px;
@@ -90,7 +90,7 @@ Publish the website in the LocalHost.
       margin: 20px 0;
     }
 
-    /* Subtitle styles */
+    /* Subtitle */
     .subtitle {
       font-family: Tahoma;
       font-size: 16px;
@@ -99,14 +99,14 @@ Publish the website in the LocalHost.
       margin: 10px 0;
     }
 
-    /* Decorative line */
+    /* Horizontal blue line */
     .id {
       margin: 20px auto;
       width: 80%;
       border-top: 2px solid blue;
     }
 
-    /* Author Image */
+    /* Author image with background-image */
     .mypic {
       position: absolute;
       bottom: 100px;
@@ -114,23 +114,23 @@ Publish the website in the LocalHost.
       width: 100px;
       height: 100px;
       border-radius: 50%;
+      background-image: url('photo.jpg');
       background-size: cover;
       background-position: center;
       border: 2px solid #555;
     }
 
-    /* Author text */
+    /* Author's name */
     .author {
       position: absolute;
       bottom: 40px;
       left: 30px;
       font-family: Georgia;
       font-size: 18px;
-      text-align: left;
       color: black;
     }
 
-    /* Publisher text */
+    /* Publisher's name */
     .pub {
       font-size: 18px;
       position: absolute;
@@ -139,7 +139,7 @@ Publish the website in the LocalHost.
       color: #333;
     }
 
-    /* Edition text */
+    /* Edition information */
     .ed {
       color: black;
       font-size: 16px;
@@ -147,7 +147,6 @@ Publish the website in the LocalHost.
       position: absolute;
       bottom: 10px;
       left: 30px;
-      text-align: left;
     }
   </style>
 </head>
@@ -168,23 +167,21 @@ Publish the website in the LocalHost.
       Learn C Program in 3 days
     </div>
 
-    <!-- Horizontal decorative line -->
+    <!-- Decorative blue horizontal line -->
     <div class="id"></div>
 
-    <!-- Author Image Section -->
-    <div class="mypic">
-      <img src="photo.jpg" width="100" height="100" alt="Author Photo">
-    </div>
+    <!-- Author Image Section using CSS background-image -->
+    <div class="mypic"></div>
 
-    <!-- Author Information Section -->
+    <!-- Author name Section -->
     <div class="author">
       <p><b>S Harish</b></p>
     </div>
 
-    <!-- Publisher Information -->
+    <!-- Publisher information -->
     <div class="pub">SEC</div>
 
-    <!-- Edition Information -->
+    <!-- Edition Information Section -->
     <div class="ed">
       <b>Limited Edition</b>
     </div>
@@ -192,6 +189,7 @@ Publish the website in the LocalHost.
 </body>
 
 </html>
+
 
 ## OUTPUT:
 ![Screenshot (35)](https://github.com/user-attachments/assets/7e1e440b-5fb8-4374-b51d-dceb339bb18a)
